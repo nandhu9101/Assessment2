@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SUITE_ASSEMENT2,Chrome 125.0.0.0,,,14-06-2024 13:59:56,14-06-2024 14:12:24,12m - 28.052s,FAILED
+,,,,,,,
+Test Cases/home,Chrome 125.0.0.0,,,14-06-2024 14:02:07,14-06-2024 14:02:51,43.725s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,14-06-2024 14:02:07,14-06-2024 14:02:10,2.309s,PASSED
+"navigateToUrl(""https://naanmudhalvan.tn.gov.in/"")",Chrome 125.0.0.0,,,14-06-2024 14:02:10,14-06-2024 14:02:17,7.568s,PASSED
+"click(findTestObject(""Object Repository/home/Page_Naan Mudhalvan Massive Upskilling Platform/img_X_popimg_home""))",Chrome 125.0.0.0,,,14-06-2024 14:02:17,14-06-2024 14:02:18,0.330s,PASSED
+"switchToWindowTitle(""Naan Mudhalvan Massive Upskilling Platform"")",Chrome 125.0.0.0,,,14-06-2024 14:02:18,14-06-2024 14:02:18,0.434s,PASSED
+"click(findTestObject(""Object Repository/home/Page_Naan Mudhalvan Massive Upskilling Platform/a_Login""))",Chrome 125.0.0.0,,,14-06-2024 14:02:18,14-06-2024 14:02:51,33.056s,FAILED
+,,,,,,,
+Test Cases/internships,Chrome 125.0.0.0,,,14-06-2024 14:03:42,14-06-2024 14:04:04,21.872s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,14-06-2024 14:03:42,14-06-2024 14:03:45,2.569s,PASSED
+"navigateToUrl(""https://naanmudhalvan.tn.gov.in/"")",Chrome 125.0.0.0,,,14-06-2024 14:03:45,14-06-2024 14:03:51,6.406s,PASSED
+"click(findTestObject(""Object Repository/interns/Page_Naan Mudhalvan Massive Upskilling Platform/div_X""))",Chrome 125.0.0.0,,,14-06-2024 14:03:51,14-06-2024 14:03:58,6.632s,PASSED
+"click(findTestObject(""Object Repository/interns/Page_Naan Mudhalvan Massive Upskilling Platform/button_X""))",Chrome 125.0.0.0,,,14-06-2024 14:03:58,14-06-2024 14:04:00,1.740s,PASSED
+"click(findTestObject(""Object Repository/interns/Page_Naan Mudhalvan Massive Upskilling Platform/button_X""))",Chrome 125.0.0.0,,,14-06-2024 14:04:00,14-06-2024 14:04:02,1.972s,PASSED
+"click(findTestObject(""Object Repository/interns/Page_Naan Mudhalvan Massive Upskilling Platform/a_Internships""))",Chrome 125.0.0.0,,,14-06-2024 14:04:02,14-06-2024 14:04:04,2.527s,FAILED
+,,,,,,,
+Test Cases/mentorsview,Chrome 125.0.0.0,,,14-06-2024 14:06:32,14-06-2024 14:07:20,48.265s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,14-06-2024 14:06:32,14-06-2024 14:06:34,2.253s,PASSED
+"navigateToUrl(""https://naanmudhalvan.tn.gov.in/mentors/"")",Chrome 125.0.0.0,,,14-06-2024 14:06:34,14-06-2024 14:06:40,5.829s,PASSED
+"click(findTestObject(""Object Repository/MENTOR/Page_Mentorship in Naan Mudhalvan/img""))",Chrome 125.0.0.0,,,14-06-2024 14:06:40,14-06-2024 14:06:42,1.754s,PASSED
+"setText(findTestObject(""Object Repository/MENTOR/Page_Naan Mudhalvan/input_Create Your Account_name""), ""guna"")",Chrome 125.0.0.0,,,14-06-2024 14:06:42,14-06-2024 14:06:42,0.662s,PASSED
+"setText(findTestObject(""Object Repository/MENTOR/Page_Naan Mudhalvan/input_Enter Name_lname""), ""nandhini"")",Chrome 125.0.0.0,,,14-06-2024 14:06:42,14-06-2024 14:06:43,0.556s,PASSED
+"setText(findTestObject(""Object Repository/MENTOR/Page_Naan Mudhalvan/input_land Islands_mobile""), ""01235459"")",Chrome 125.0.0.0,,,14-06-2024 14:06:43,14-06-2024 14:06:43,0.583s,PASSED
+"click(findTestObject(""Object Repository/MENTOR/Page_Naan Mudhalvan/input_Enter Confirm Password_terms""))",Chrome 125.0.0.0,,,14-06-2024 14:06:43,14-06-2024 14:06:44,0.539s,PASSED
+"click(findTestObject(""Object Repository/MENTOR/Page_Mentorship in Naan Mudhalvan/a_Sign Up""))",Chrome 125.0.0.0,,,14-06-2024 14:06:44,14-06-2024 14:07:20,36.057s,FAILED
+,,,,,,,
+Test Cases/SERVICE DESK,Chrome 125.0.0.0,,,14-06-2024 14:07:20,14-06-2024 14:07:38,17.743s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,14-06-2024 14:07:20,14-06-2024 14:07:22,2.235s,PASSED
+"navigateToUrl(""https://naanmudhalvan.tn.gov.in/servicedesk/users/index.php"")",Chrome 125.0.0.0,,,14-06-2024 14:07:22,14-06-2024 14:07:28,5.762s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/img""))",Chrome 125.0.0.0,,,14-06-2024 14:07:28,14-06-2024 14:07:29,0.611s,PASSED
+"switchToWindowTitle(""Naan Mudhalvan Service Desk | User Registration"")",Chrome 125.0.0.0,,,14-06-2024 14:07:29,14-06-2024 14:07:29,0.040s,PASSED
+"setText(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/input_Verification_contactno""), ""123456789"")",Chrome 125.0.0.0,,,14-06-2024 14:07:29,14-06-2024 14:07:29,0.621s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/button_GET OTP""))",Chrome 125.0.0.0,,,14-06-2024 14:07:29,14-06-2024 14:07:30,0.338s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/li_Please Clearly Narate the issue,Roll no _c80052""))",Chrome 125.0.0.0,,,14-06-2024 14:07:30,14-06-2024 14:07:30,0.318s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/a_httpportal.naanmudhalvan.tn.gov.in""))",Chrome 125.0.0.0,,,14-06-2024 14:07:30,14-06-2024 14:07:32,2.366s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/input_Username_username""))",Chrome 125.0.0.0,,,14-06-2024 14:07:32,14-06-2024 14:07:33,0.315s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/svg_Captcha_vue_client_recaptcha_icon_svg""))",Chrome 125.0.0.0,,,14-06-2024 14:07:33,14-06-2024 14:07:33,0.339s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/p_Forgot Password""))",Chrome 125.0.0.0,,,14-06-2024 14:07:33,14-06-2024 14:07:34,0.517s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/input_Email_emailUsernameRadio""))",Chrome 125.0.0.0,,,14-06-2024 14:07:34,14-06-2024 14:07:34,0.516s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/button_Send OTP""))",Chrome 125.0.0.0,,,14-06-2024 14:07:34,14-06-2024 14:07:35,0.521s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/select_English""), ""ta"", true)",Chrome 125.0.0.0,,,14-06-2024 14:07:35,14-06-2024 14:07:36,1.132s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Massive Upskilling Platform/select_English""), ""en"", true)",Chrome 125.0.0.0,,,14-06-2024 14:07:36,14-06-2024 14:07:37,1.049s,PASSED
+"switchToWindowTitle(""Naan Mudhalvan Service Desk | User Registration"")",Chrome 125.0.0.0,,,14-06-2024 14:07:37,14-06-2024 14:07:37,0.039s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/div_Register Your Complaint                _84d17d""))",Chrome 125.0.0.0,,,14-06-2024 14:07:37,14-06-2024 14:07:37,0.295s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/div_Register Your Complaint                _84d17d_1""))",Chrome 125.0.0.0,,,14-06-2024 14:07:37,14-06-2024 14:07:37,0.300s,PASSED
+"click(findTestObject(""Object Repository/SERVICE/Page_Naan Mudhalvan Service Desk  User Regi_a585c8/a_supportnaanmudhalvan.in""))",Chrome 125.0.0.0,,,14-06-2024 14:07:37,14-06-2024 14:07:38,0.333s,PASSED
+,,,,,,,
+Test Cases/skillsoffering,Chrome 125.0.0.0,,,14-06-2024 14:11:18,14-06-2024 14:12:24,1m - 5.793s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,14-06-2024 14:11:18,14-06-2024 14:11:20,2.318s,PASSED
+"navigateToUrl(""https://naanmudhalvan.tn.gov.in/"")",Chrome 125.0.0.0,,,14-06-2024 14:11:20,14-06-2024 14:11:27,6.974s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Naan Mudhalvan Massive Upskilling Platform/button_X""))",Chrome 125.0.0.0,,,14-06-2024 14:11:27,14-06-2024 14:11:28,0.563s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Naan Mudhalvan Massive Upskilling Platform/button_X""))",Chrome 125.0.0.0,,,14-06-2024 14:11:28,14-06-2024 14:11:28,0.278s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Naan Mudhalvan Massive Upskilling Platform/a_Skill Offerings""))",Chrome 125.0.0.0,,,14-06-2024 14:11:28,14-06-2024 14:11:29,0.572s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Training Partners in Naan Mudhalvan/p_Arts and Sciences""))",Chrome 125.0.0.0,,,14-06-2024 14:11:29,14-06-2024 14:11:30,0.995s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Training Partners in Naan Mudhalvan/path""))",Chrome 125.0.0.0,,,14-06-2024 14:11:30,14-06-2024 14:11:32,2.715s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Training Partners in Naan Mudhalvan/button_View""))",Chrome 125.0.0.0,,,14-06-2024 14:11:32,14-06-2024 14:11:33,0.566s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Naan Mudhalvan Massive Upskilling Platform/button_Watch""))",Chrome 125.0.0.0,,,14-06-2024 14:11:33,14-06-2024 14:11:34,1.411s,PASSED
+"switchToWindowTitle(""Page Not Found"")",Chrome 125.0.0.0,,,14-06-2024 14:11:34,14-06-2024 14:11:46,11.919s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_Page Not Found/a_Go to Homepage""))",Chrome 125.0.0.0,,,14-06-2024 14:11:46,14-06-2024 14:11:50,3.155s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_GUVI  Learn to code in your native language/span_Free""))",Chrome 125.0.0.0,,,14-06-2024 14:11:50,14-06-2024 14:11:52,2.640s,PASSED
+"switchToWindowTitle(""GUVI | Learn to code in your native language"")",Chrome 125.0.0.0,,,14-06-2024 14:11:52,14-06-2024 14:11:52,0.097s,PASSED
+"click(findTestObject(""Object Repository/skills/Page_GUVI  Learn to code in your native language/span_IDE""))",Chrome 125.0.0.0,,,14-06-2024 14:11:52,14-06-2024 14:12:24,31.568s,FAILED
